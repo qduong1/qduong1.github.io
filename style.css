@@ -18,10 +18,30 @@
                            
               }
               
-              .container .btn {
+              .container .btn1 {
                 position: absolute;
                 top: 52%;
                 left: 55%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                background-color: transparent;
+                color: white;
+                font-size: 16px;
+                padding: 33px 33px;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+                text-align: center;
+              }
+              
+              .container .btn1:hover {
+                background-color: transparent;
+              }
+              
+              .container .btn2 {
+                position: absolute;
+                top: 60%;
+                left: 20%;
                 transform: translate(-50%, -50%);
                 -ms-transform: translate(-50%, -50%);
                 background-color: transparent;
@@ -34,6 +54,6 @@
                 text-align: center;
               }
               
-              .container .btn:hover {
+              .container .btn2:hover {
                 background-color: black;
               }
